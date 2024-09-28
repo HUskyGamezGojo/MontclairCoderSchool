@@ -58,3 +58,19 @@
 #     else:
 #         return w-l
 # print (op2(6,10))
+# def c_circle(r):
+#     return 2*3.14*r
+# print(c_circle(5))
+
+# def a_circle(r):
+#     return 3.14*r*r
+
+# print (a_circle(5))
+def op_circle(r):
+    c = 2*3.14*r
+    a = 3.14*r*r
+    if c>a:
+        return "circumfrence"
+    else:
+        return "area"
+print(op_circle(5))
